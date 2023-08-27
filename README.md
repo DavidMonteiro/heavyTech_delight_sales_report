@@ -1,32 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Heavy Machinery Company Sales Report
 
-Welcome,
+Welcome to the Heavy Machinery Company Sales Report Generator repository. This README provides an overview of the Python program that simulates a company selling heavy machinery to construction companies. The program generates a year of sales data in CSV format and then creates an HTML sales report with visualizations based on the CSV data.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+## Overview
 
-## Reminders
+The Heavy Machinery Company Sales Report is a Python-based program that demonstrates how sales data can be managed and visualized for a heavy machinery company. The program simulates a year's worth of sales, generating data such as product names, quantities, prices, and customer information.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## Features
+In this python program I make use of python libraries such as pandas and plotly
 
-## Creating the Heroku app
+### Data Generation
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The data generation program creates a CSV file containing sales data for heavy machinery products. It simulates transactions with varying quantities, prices, and customer details. The generated CSV file serves as the input for the sales report visualization.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Sales Report Visualization
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+This report visualization program reads the generated CSV file and generates an HTML sales report. This report includes interactive charts, graphs, and tables that provide insights into the sales performance. The visualizations help in understanding trends, popular products, and customer engagement.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Deployment
 
-Connect your GitHub repository and deploy as normal.
+The Fake Heavy Machinery Company Sales Report Generator is deployed using Heroku, making it accessible through the web. Users can interact with the program to generate sales reports based on simulated data.
 
-## Constraints
+You can access the deployed application at [Heroku App Link](https://heavytech-delight-sales-report-995633807fb3.herokuapp.com/).
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Usage
 
----
 
-Happy coding!
+## Future Enhancements
+
+I an committed to enhancing the Heavy Machinery Company Sales Report  with new features and improvements. Some potential future enhancements include:
+
+- Integration with real sales data sources.
+- Additional visualization types and customization options.
+- Export options for the generated sales report.
