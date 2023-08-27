@@ -5,7 +5,7 @@ import pandas as pd
 
 
 
-# Define the possible options for nominal columns in lists
+""" Define the possible options for nominal columns in lists"""
 finance_types = ['sale', 'rental']
 sellers = ['James Ford', 'Kate Austen', 'John Locke', 'Jack Shephard']
 business_sectors = ['Construction', 'Mining', 'Infrastructure', 'Demolition', 'Landscaping']
@@ -35,11 +35,37 @@ for _ in range(100):
     product_type = random.choice(product_types)
     product_quantity = random.randint(1, 4)
     
-    sales_data.append([date, finance_type, order_no, seller, company, county, business_sector, product_state, product_make, product_type, product_model, product_quantity])
+    sales_data.append([
+        date, 
+        finance_type, 
+        order_no, 
+        seller, 
+        company, 
+        county, 
+        business_sector, 
+        product_state, 
+        product_make, 
+        product_type, 
+        product_model, 
+        product_quantity
+        ])
 
 
 # Create a DataFrame
-columns = ["Date", "Finance_Type", "Order_no", "Seller", "Company", "County", "Business_Sector", "Product_State", "Product_Make", "Product_Type", "Product_Model", "Product_Quantity"]
+columns = [
+    "Date",
+    "Finance_Type",
+    "Order_no",
+    "Seller",
+    "Company",
+    "County",
+    "Business_Sector",
+    "Product_State",
+    "Product_Make",
+    "Product_Type",
+    "Product_Model",
+    "Product_Quantity"
+    ]
 df = pd.DataFrame(sales_data, columns=columns)
 
 # Save the DataFrame to a CSV file
