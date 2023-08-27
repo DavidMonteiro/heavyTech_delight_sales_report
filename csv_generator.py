@@ -1,6 +1,8 @@
 import random
 from faker import Faker
 import datetime
+import pandas as pd
+
 
 
 # Define the possible options for nominal columns in lists
@@ -35,4 +37,10 @@ for _ in range(100):
     
     sales_data.append([date, finance_type, order_no, seller, company, county, business_sector, product_state, product_make, product_type, product_model, product_quantity])
 
-print(sales_data)
+
+# Create a DataFrame
+columns = ["Date", "Finance_Type", "Order_no", "Seller", "Company", "County", "Business_Sector", "Product_State", "Product_Make", "Product_Type", "Product_Model", "Product_Quantity"]
+df = pd.DataFrame(sales_data, columns=columns)
+
+# Save the DataFrame to a CSV file
+df.to_csv('heavyTech_delight_sales_2021.csv', index=False)
