@@ -42,15 +42,18 @@ html_content = start_html_report()
 
 # Generate the table and the donut chart
 table_fig = gen_report.general_data_table(sales)
+scatter_chart_fig = gen_report.general_bubble_chart(sales)
 donut_chart_fig = gen_report.general_data_donutChart(sales)
 
 #Push the table and the chart into the html string
 html_content = push_to_html_report(html_content, table_fig)
+html_content = push_to_html_report(html_content, scatter_chart_fig)
 html_content = push_to_html_report(html_content, donut_chart_fig)
 
 
 #Close the html page </body? & </html>
 html_content = close_html_report(html_content)
+
 
 #Generate html report in html format
 io.generate_html_report("sales_report.html", html_content)

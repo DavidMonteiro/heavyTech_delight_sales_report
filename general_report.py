@@ -78,3 +78,9 @@ def general_data_donutChart(df):
                     color_discrete_map = {'Sales': '#003f5c', 'Rentals': '#ffa600'})
     fig.update_traces(hole=.4, textinfo='value + percent',hovertemplate = "%{label}<br>Total Orders: %{value} </br>Percentage : %{percent}")
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
+
+
+def general_bubble_chart(df):
+    fig = px.scatter(df, x="Date", y="Business_Sector", color="Finance_Type",
+                     size='Product_Quantity', title="Scatter Chart: Sales vs. Rentals", height=800)
+    return fig.to_html(full_html=True, include_plotlyjs='cdn')
