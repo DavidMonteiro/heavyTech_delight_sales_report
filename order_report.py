@@ -21,7 +21,7 @@ def order_histogram(df):
     
     #Histogram 
     histogram = px.histogram(title=" Monthly Order Distribution: New vs. Refurbished", x=line_date_order['Month'], y=line_date_order['Order_no'], color_discrete_sequence =['#99d5b0'], 
-                             text_auto=True, labels={'x':'Month', 'y':'Orders'}, category_orders={"Month": all_months})
+                             text_auto=True, labels={'x':'Month', 'y':'Orders'}, category_orders={"Month": all_months}, height=500)
     histogram.add_trace(
         go.Scatter(
             name='New',
@@ -43,7 +43,7 @@ def order_histogram(df):
 def order_scatter(df):
     #Scatter Chart
     fig = px.scatter(df, x="Date", y="County", color="Business_Sector",
-                 size='Product_Quantity', title="Distribution of Orders by County and Business", height=900)
+                 size='Product_Quantity', title="Distribution of Orders by County and Business", height=500)
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 def order_county_diagram(df):
@@ -89,6 +89,51 @@ def order_county_diagram(df):
 
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
+
+def order_sector_diagram(df):    
+    #Subplot with horizontal bar chart and table for orders and the customer Sector
+    sector_order_count = df.groupby('Business_Sector')['Order_no'].count()
+
+    fig = make_subplots(
+        rows=1, cols=2,
+        shared_xaxes=True,
+        vertical_spacing=0.03,
+        specs=[[{"type": "bar"},
+               {"type": "table"}]]
+    )
+
+    fig.add_trace(
+        go.Table(
+            header=dict(
+                values=['Sectors:', 'Orders Made:']
+            ), 
+            cells=dict(
+                values=[sector_order_count.sort_values(ascending=False).index, 
+                         sector_order_count.sort_values(ascending=False).values]
+            )),
+        row=1, col=2
+    )
+
+    fig.add_trace(
+        go.Bar( 
+            y=sector_order_count.index, 
+            x=sector_order_count.values, 
+            orientation='h', 
+            marker=dict(
+                color='rgba(50, 171, 96, 0.6)',
+                line=dict(color='rgba(50, 171, 96, 1.0)')
+            )),
+        row=1, col=1
+    )
+
+    fig.update_layout(
+        height=400,
+        showlegend=False,
+        title_text="Business Sector",
+    )
+
+    return fig.to_html(full_html=True, include_plotlyjs='cdn')     
+
 def order_Analysis(df, html_content0):
     """Master function to generate call functions above, stored them in a string and return them """
 
@@ -98,11 +143,13 @@ def order_Analysis(df, html_content0):
     histogram_fig = order_histogram(df)
     scatter_fig = order_scatter(df)
     counties_fig = order_county_diagram(df)
+    sector_fig = order_sector_diagram(df)
 
     #Push chart into the html string
     html_content0 +=  histogram_fig
     html_content0 += scatter_fig
     html_content0 += counties_fig
+    html_content0 += sector_fig
 
     return html_content0
 
