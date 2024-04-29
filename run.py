@@ -1,16 +1,12 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# Main python script
+
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
 import plotly.express as px
+import io_operations as io
 
-#Creating Sale dataframes from csv file > 'heavyTech_delight_sales_2021.csv'
-try:
-    sales = pd.read_csv('heavyTech_delight_sales_2021.csv')
-except IOError as e:
-     print('IO error: ' + e)
+sales = io.read_csv('heavyTech_delight_sales_2021.csv')
 
 
 
@@ -136,4 +132,4 @@ html_content = push_to_html_report(html_content, donut_chart_fig)
 html_content = close_html_report(html_content)
 
 #Generate html report in html format
-generate_html_report("sales_report.html", html_content)
+io.generate_html_report("sales_report.html", html_content)
