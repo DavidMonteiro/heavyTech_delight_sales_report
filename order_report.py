@@ -43,7 +43,7 @@ def order_histogram(df):
 def order_scatter(df):
     #Scatter Chart
     fig = px.scatter(df, x="Date", y="County", color="Business_Sector",
-                 size='Product_Quantity', title="Distribution of Orders by County and Business", height=500)
+                 size='Product_Quantity', title="Distribution of Orders by County and Business", height=400)
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 def order_county_diagram(df):
