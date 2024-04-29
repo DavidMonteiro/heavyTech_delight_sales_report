@@ -1,5 +1,6 @@
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import plotly.express as px
 
 
 def product_treemap(df):
@@ -124,6 +125,28 @@ def top_one_pie_product(ordered_df):
     # return top product sold
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
+def product_bar_chart(df):
+    # Bar Chart to compare product by state, type and quantity sold
+    cap_prod_type = df.groupby(['Product_State', 'Product_Type'])['Product_Quantity'].sum().reset_index()
+
+    end_result = ""
+    
+    fig = px.bar(cap_prod_type, x="Product_Type", y="Product_Quantity", color= "Product_State", labels=" ",
+                 color_discrete_map={ # replaces default color mapping by value
+                    "New": "#B19CD7", "Refurbished": "#99d5b0"
+                },title='Products sold by Product type', width=950, height=500) 
+    fig.update_traces(textfont_size=12, textangle=1, textposition="outside", cliponaxis=False)
+    end_result += fig.to_html(full_html=True, include_plotlyjs='cdn')
+
+    cap_prod_type = df.groupby(['Product_Type'])['Product_Quantity'].sum().reset_index()
+    fig = go.Figure(data=[go.Table(header=dict(values=['Product Type', 'Total Sold']),
+                     cells=dict(values=[
+                         cap_prod_type.sort_values('Product_Quantity', ascending=False).head(n=5).Product_Type, 
+                         cap_prod_type.sort_values('Product_Quantity', ascending=False).head(n=5).Product_Quantity]))
+                         ])
+    fig.update_layout(width=800, height=400)
+    end_result += fig.to_html(full_html=True, include_plotlyjs='cdn')
+    return end_result
 
 def product_Analysis(df, html_content0):
     """Master function to generate call functions above, stored them in a string and return them """
@@ -133,9 +156,11 @@ def product_Analysis(df, html_content0):
     # Generate the histogram chart
     product_treemap_fig = product_treemap(df)
     top_pieChart_fig = product_pie_chart(df)
+    bar_chart = product_bar_chart(df)
 
     #Push chart into the html string
     html_content0 +=  product_treemap_fig
     html_content0 += top_pieChart_fig
+    html_content0 += bar_chart
 
     return html_content0
