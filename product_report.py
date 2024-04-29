@@ -148,6 +148,17 @@ def product_bar_chart(df):
     end_result += fig.to_html(full_html=True, include_plotlyjs='cdn')
     return end_result
 
+
+def product_scatter(df):
+    ##Scatter chart of products sold by make over the year and their condition
+
+    scatter_sale_order = df[['Date', 'Product_Type', 'Product_Make']]
+
+    fig = px.scatter(scatter_sale_order, x='Date', y='Product_Make', color='Product_Type',
+                      title='Product Type vs. Product Quantity', height=500)
+
+    return fig.to_html(full_html=True, include_plotlyjs='cdn')
+
 def product_Analysis(df, html_content0):
     """Master function to generate call functions above, stored them in a string and return them """
 
@@ -157,10 +168,12 @@ def product_Analysis(df, html_content0):
     product_treemap_fig = product_treemap(df)
     top_pieChart_fig = product_pie_chart(df)
     bar_chart = product_bar_chart(df)
+    scatter_fig = product_scatter(df)
 
     #Push chart into the html string
     html_content0 +=  product_treemap_fig
     html_content0 += top_pieChart_fig
     html_content0 += bar_chart
+    html_content0 += scatter_fig
 
     return html_content0
