@@ -69,7 +69,7 @@ def general_data_table(df):
                             count_new_products(df),
                             count_refurbished_products(df)]]))
                         ])
-    fig.update_layout(width=500)
+    fig.update_layout(width=500, height= 400)
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 def general_data_donutChart(df):
@@ -77,7 +77,8 @@ def general_data_donutChart(df):
     data = df.groupby('Finance_Type')['Order_no'].count().reset_index()
     fig = px.pie(data, values='Order_no', names='Finance_Type', color = 'Finance_Type',
                     color_discrete_map = {'Sales': '#003f5c', 'Rentals': '#ffa600'})
-    fig.update_traces(hole=.4, textinfo='value + percent',hovertemplate = "%{label}<br>Total Orders: %{value} </br>Percentage : %{percent}")
+    fig.update_traces(hole=.4, textinfo='value + percent',hovertemplate = "%{label}<br>Total Orders: %{value} </br>Percentage : %{percent}",
+        title_text="Donut Chart: Sales vs. Rentals")
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 
