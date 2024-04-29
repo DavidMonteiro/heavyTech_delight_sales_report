@@ -39,6 +39,11 @@ def order_histogram(df):
     return histogram.to_html(full_html=True, include_plotlyjs='cdn')
 
 
+def order_scatter(df):
+    #Scatter Chart
+    fig = px.scatter(df, x="Date", y="County", color="Business_Sector",
+                 size='Product_Quantity', title="Distribution of Orders by County and Business", height=900)
+    return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 
 def order_Analysis(df, html_content0):
@@ -48,8 +53,11 @@ def order_Analysis(df, html_content0):
 
     # Generate the histogram chart
     histogram_fig = order_histogram(df)
+    scatter_fig = order_scatter(df)
 
     #Push chart into the html string
     html_content0 +=  histogram_fig
+    html_content0 += scatter_fig
 
     return html_content0
+
