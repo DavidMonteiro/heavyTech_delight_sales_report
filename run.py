@@ -8,6 +8,7 @@ import io_operations as io
 
 import general_report as gen_report
 import order_report as ord_report
+import product_report as prd_report
 
 ##ETL section - extract csv into dataframe and add two columns after making some adjustments
 sales = io.read_csv('heavyTech_delight_sales_2021.csv')
@@ -52,6 +53,7 @@ html_content = start_html_report()
 # Generate the table and the donut chart
 html_content = gen_report.general_Analysis(sales, html_content)
 html_content = ord_report.order_Analysis(sales, html_content)
+html_content = prd_report.product_Analysis(sales, html_content)
 
 
 #Close the html page </body? & </html>
