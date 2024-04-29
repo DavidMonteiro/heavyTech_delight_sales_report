@@ -159,6 +159,57 @@ def product_scatter(df):
 
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
+
+
+def product_information(df):
+    ##Subplot to show makes product type and poduct state by quarter
+
+    # Group data by quarter and finance type for the stacked bar chart
+    grouped_df = df.groupby(['Quarter', 'Product_State'])['Product_Quantity'].sum().reset_index()
+
+    # Create subplots with 4 rows and 2 columns
+    fig = make_subplots(rows=4, cols=3, subplot_titles=["Q1 Makes", "Q1 Product Types", "Q1 Product Condition",
+             "Q2 Makes", "Q2 Product Types", "Q2 Product Condition", "Q3 Makes", "Q3 Product Types", "Q3 Product Condition",
+             "Q4 Makes", "Q4 Product Types", "Q4 Product Condition"],
+             specs=[[{"type": "treemap"}, {"type": "pie"}, {"type": "bar"}],
+                    [{"type": "treemap"}, {"type": "pie"}, {"type": "bar"}],
+                    [{"type": "treemap"}, {"type": "pie"}, {"type": "bar"}],
+                    [{"type": "treemap"}, {"type": "pie"}, {"type": "bar"}]])
+
+    # Loop through each quarter and create the pie and bar charts
+    for quarter in range(1, 5):
+        
+        # Stacked bar chart data for the quarter
+        bar_data = grouped_df[grouped_df['Quarter'] == quarter]    
+        
+        # Pie chart data for the quarter
+        pie_data = df[df['Quarter'] == quarter]['Product_Type'].value_counts()
+
+        #treemap data for the quarter
+        product_type_counts = df[df['Quarter'] == quarter]['Product_Make'].value_counts()
+
+        # Create tree chart
+        tree_chart = go.Treemap(labels=product_type_counts.index, parents=['Makes'] * len(product_type_counts), values=product_type_counts.values)
+        fig.add_trace(tree_chart, row=quarter, col=1)
+
+        # Create pie chart
+        pie_chart = go.Pie(labels=pie_data.index, values=pie_data.values, name=f"Q{quarter}")
+        fig.add_trace(pie_chart, row=quarter, col=2)
+
+        # Create stacked bar chart
+        bar_chart = go.Bar(x=bar_data['Product_State'], y=bar_data['Product_Quantity'],
+                           text=bar_data['Product_Quantity'], textposition='auto', name=f"Q{quarter}")
+        fig.add_trace(bar_chart, row=quarter, col=3)
+
+    # Update layout and title
+    fig.update_layout(title_text="Product Information by Quarter",
+                      showlegend=True,
+                      height=1000,
+                      width=1300)
+
+    # return the plot in html syntax
+    return fig.to_html(full_html=True, include_plotlyjs='cdn') 
+
 def product_Analysis(df, html_content0):
     """Master function to generate call functions above, stored them in a string and return them """
 
@@ -169,11 +220,13 @@ def product_Analysis(df, html_content0):
     top_pieChart_fig = product_pie_chart(df)
     bar_chart = product_bar_chart(df)
     scatter_fig = product_scatter(df)
+    product_info_fig = product_information(df)
 
     #Push chart into the html string
     html_content0 +=  product_treemap_fig
     html_content0 += top_pieChart_fig
     html_content0 += bar_chart
     html_content0 += scatter_fig
+    html_content0 += product_info_fig
 
     return html_content0
