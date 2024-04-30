@@ -17,6 +17,11 @@ The data generation program (csv_generator.py) creates a CSV file containing sal
 
 This report visualization program reads the generated CSV file and generates an HTML sales report. This report includes interactive charts, graphs, and tables that provide insights into the sales performance. The visualizations help in understanding trends, popular products, and customer engagement.
 
+
+
+
+
+
 ## Deployment
 
 The Fake Heavy Machinery Company Sales Report Generator is deployed using Heroku, making it accessible through the web. Users can interact with the program to generate sales reports based on simulated data.

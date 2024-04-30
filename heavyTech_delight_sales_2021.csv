@@ -1,101 +1,201 @@
 Date,Finance_Type,Order_no,Seller,Company,County,Business_Sector,Product_State,Product_Make,Product_Type,Product_Model,Product_Quantity
-2021-09-03,rental,79291,James Ford,Dixon-Munoz,Meath,Landscaping,new,Haulage,Paver,VLnRHL,1
-2021-04-25,sale,89004,John Locke,Bridges Ltd,Limerick,Mining,refurbished,Haulage,Backhoe Loader,ZHyyUz,1
-2021-06-28,sale,79241,James Ford,Meyers-Schultz,Galway,Infrastructure,new,Volvo,Dump Truck,HLwzXk,3
-2021-04-26,sale,96540,James Ford,"Martinez, Hahn and Hess",Wexford,Landscaping,refurbished,Caterpillar,Paver,hrUKqr,4
-2021-04-09,sale,55765,Jack Shephard,Moore-Benjamin,Kerry,Infrastructure,refurbished,Haulage,Backhoe Loader,FuvwAH,3
-2021-04-20,rental,21410,Kate Austen,"Watkins, Williams and Williams",Kilkenny,Infrastructure,new,Komatsu,Bulldozer,nDogms,2
-2021-11-30,rental,93544,John Locke,Smith-Carter,Dublin,Infrastructure,refurbished,Haulage,Crane,fuiHgI,1
-2021-02-06,rental,78404,Kate Austen,Marshall Ltd,Galway,Mining,refurbished,Komatsu,Paver,qFbACw,2
-2021-05-30,sale,50322,Jack Shephard,Flores-Williams,Wexford,Construction,new,Komatsu,Bulldozer,KLNEOS,1
-2021-06-02,sale,64860,Jack Shephard,Hughes and Sons,Meath,Construction,refurbished,Volvo,Concrete Pump Truck,ssGRZK,3
-2021-08-23,sale,53362,John Locke,Harvey-Johnson,Dublin,Demolition,refurbished,Volvo,Dump Truck,czXCSa,3
-2021-09-04,sale,15541,Jack Shephard,Williams-Hughes,Cork,Construction,new,Volvo,Concrete Pump Truck,wNFcUz,2
-2021-05-07,sale,75340,James Ford,"Wilson, Allen and Pace",Wexford,Demolition,new,Volvo,Bulldozer,oXTWPy,3
-2021-10-13,sale,77538,Jack Shephard,Booth and Sons,Kilkenny,Construction,new,Haulage,Bulldozer,ZtzKkL,4
-2021-09-16,sale,10438,Jack Shephard,"Jimenez, Avery and Walker",Cork,Infrastructure,new,Volvo,Paver,GbVSFD,4
-2021-07-03,rental,11941,James Ford,"Doyle, Dalton and Austin",Kerry,Landscaping,new,Caterpillar,Bulldozer,DsbqCk,1
-2021-09-01,rental,98697,John Locke,Cooper-Zamora,Waterford,Landscaping,refurbished,Volvo,Crane,QLqmda,3
-2021-03-21,rental,13653,Jack Shephard,Joseph LLC,Limerick,Demolition,refurbished,Caterpillar,Front End Loader,rGLCxl,2
-2021-04-30,rental,72522,James Ford,Arias-Trevino,Cork,Demolition,refurbished,Caterpillar,Concrete Pump Truck,ibomcG,3
-2021-07-09,rental,27024,Jack Shephard,Jefferson and Sons,Meath,Landscaping,refurbished,Komatsu,Paver,PqioRr,3
-2021-03-19,sale,21469,James Ford,"Sandoval, Liu and Mcdonald",Meath,Infrastructure,refurbished,Haulage,Dump Truck,hZIewf,4
-2021-07-11,sale,68305,John Locke,Henry-Jackson,Galway,Demolition,new,Caterpillar,Paver,ZvMmae,3
-2021-10-10,rental,20491,John Locke,Smith-Scott,Cork,Landscaping,new,Caterpillar,Paver,AkyNyg,4
-2021-06-01,sale,26799,Kate Austen,Hurst Group,Wexford,Construction,refurbished,Volvo,Paver,ohWERx,3
-2021-05-09,rental,72294,Jack Shephard,Cardenas LLC,Galway,Landscaping,refurbished,Haulage,Bulldozer,EFsqrE,1
-2021-06-14,sale,26219,Kate Austen,Lopez-Zimmerman,Meath,Demolition,new,Komatsu,Backhoe Loader,sOQtHr,3
-2021-03-15,sale,70145,John Locke,"Harris, Tate and Campos",Limerick,Demolition,refurbished,Komatsu,Crane,qDEbCN,2
-2021-11-30,rental,22745,Kate Austen,"Perry, Jones and Castro",Cork,Infrastructure,new,Volvo,Paver,SgxfWu,1
-2021-11-25,sale,17894,Kate Austen,"Newman, Sullivan and Ball",Kerry,Infrastructure,refurbished,Volvo,Bulldozer,nYynTM,4
-2021-10-21,rental,64122,Jack Shephard,Mitchell-Lopez,Dublin,Mining,new,Caterpillar,Paver,MNAsxW,3
-2021-01-25,rental,41729,James Ford,Burns Group,Meath,Infrastructure,refurbished,Volvo,Excavator,pZpDJC,2
-2021-06-16,rental,76888,John Locke,Howard-Dillon,Meath,Demolition,new,Haulage,Backhoe Loader,PzNlWx,4
-2021-05-12,rental,94268,Jack Shephard,Jackson-Cox,Meath,Demolition,new,Volvo,Front End Loader,hadJvD,1
-2021-07-24,rental,41528,John Locke,Roberts-Smith,Wexford,Construction,new,Caterpillar,Front End Loader,QvyFfs,2
-2021-08-03,sale,14261,John Locke,Carlson-Hernandez,Cork,Construction,refurbished,Haulage,Excavator,yNlqUX,4
-2021-08-15,sale,84200,James Ford,Flores Inc,Kerry,Construction,new,Haulage,Dump Truck,bCwLef,2
-2021-03-09,rental,87642,Kate Austen,Hamilton PLC,Waterford,Demolition,new,Haulage,Paver,mBmBEV,1
-2021-05-18,sale,42891,Jack Shephard,Steele-Powers,Limerick,Demolition,refurbished,Caterpillar,Concrete Pump Truck,awpRiM,3
-2021-07-06,rental,17430,Kate Austen,"Wilson, Strong and Harris",Waterford,Mining,new,Haulage,Paver,XPxQSF,3
-2021-11-13,rental,30738,John Locke,"Le, Burch and Robinson",Waterford,Demolition,new,Haulage,Excavator,iCyukV,1
-2021-05-26,rental,86564,Kate Austen,"Foster, Walton and Wise",Kerry,Construction,refurbished,Komatsu,Concrete Pump Truck,ARHGCn,3
-2021-01-28,rental,70798,John Locke,"Delacruz, Stevens and Wilson",Wexford,Landscaping,new,Caterpillar,Crane,FDEqgw,3
-2021-09-17,sale,18618,James Ford,"Sherman, Guzman and Jones",Meath,Mining,new,Komatsu,Excavator,erLfkQ,4
-2021-08-02,rental,96506,John Locke,Fuentes-Hernandez,Galway,Mining,new,Haulage,Bulldozer,dgakbu,4
-2021-03-07,sale,68240,John Locke,"Wallace, Lopez and Allen",Meath,Demolition,refurbished,Haulage,Front End Loader,vaJMvH,1
-2021-12-01,rental,38191,John Locke,Bailey-Martin,Dublin,Infrastructure,refurbished,Komatsu,Paver,XtKYRJ,3
-2021-01-13,sale,41074,James Ford,"Sims, Barrett and Vaughn",Limerick,Infrastructure,refurbished,Caterpillar,Excavator,TrFFhN,3
-2021-01-02,rental,48602,Jack Shephard,Vaughan-Campbell,Waterford,Mining,refurbished,Caterpillar,Crane,okhOLZ,4
-2021-12-23,rental,46056,Kate Austen,"Edwards, Flores and Pena",Meath,Demolition,refurbished,Komatsu,Concrete Pump Truck,QRKBCX,3
-2021-06-16,rental,91405,James Ford,"Hawkins, Wright and Gutierrez",Waterford,Demolition,refurbished,Komatsu,Concrete Pump Truck,LExmZZ,4
-2021-08-04,sale,28183,Jack Shephard,Daniel Group,Meath,Landscaping,refurbished,Volvo,Dump Truck,oeHgKv,2
-2021-02-18,rental,23126,Jack Shephard,Johnson Inc,Wexford,Construction,refurbished,Haulage,Bulldozer,TRAyvQ,1
-2021-03-28,rental,35755,John Locke,"Miller, Carter and Richmond",Cork,Construction,refurbished,Haulage,Front End Loader,YqJiSc,4
-2021-05-12,sale,46158,James Ford,Williams Group,Galway,Mining,new,Volvo,Front End Loader,fwMgAh,1
-2021-05-10,rental,86383,John Locke,Norris-Koch,Wexford,Landscaping,new,Volvo,Backhoe Loader,ifVIGo,4
-2021-01-18,sale,44867,John Locke,"Carson, Martinez and Washington",Kilkenny,Construction,new,Haulage,Dump Truck,rWeuUI,3
-2021-11-20,rental,42473,John Locke,Johnson Ltd,Waterford,Infrastructure,new,Komatsu,Concrete Pump Truck,QKfsSc,2
-2021-02-14,rental,99396,Jack Shephard,"Nguyen, Martinez and Brown",Limerick,Construction,new,Caterpillar,Dump Truck,qHkSTd,1
-2021-02-20,sale,35207,James Ford,"Thompson, Daniel and Thomas",Kerry,Demolition,refurbished,Caterpillar,Backhoe Loader,bmyvQx,2
-2021-05-05,rental,98028,John Locke,Campbell-Davis,Limerick,Infrastructure,new,Caterpillar,Paver,wElJSs,3
-2021-01-02,rental,76326,James Ford,"Cohen, Banks and Hancock",Kerry,Demolition,refurbished,Haulage,Paver,DjAvtj,4
-2021-05-13,sale,64439,Jack Shephard,"Mitchell, Newton and Alvarez",Kilkenny,Landscaping,refurbished,Caterpillar,Paver,ETExcH,2
-2021-09-10,sale,60824,John Locke,Paul-Castaneda,Galway,Landscaping,refurbished,Komatsu,Backhoe Loader,coohVw,1
-2021-10-09,sale,65222,John Locke,Robertson Group,Waterford,Construction,refurbished,Haulage,Front End Loader,VPtFDY,2
-2021-05-23,rental,38600,James Ford,Taylor and Sons,Meath,Infrastructure,new,Volvo,Front End Loader,rRWBGM,2
-2021-03-17,rental,86828,James Ford,Blair Ltd,Waterford,Infrastructure,refurbished,Caterpillar,Bulldozer,kiSPtz,4
-2021-11-21,rental,16442,James Ford,Mendez Ltd,Kerry,Demolition,new,Volvo,Excavator,MnBzgj,2
-2021-01-20,rental,28985,Kate Austen,Blankenship-Salinas,Meath,Mining,refurbished,Caterpillar,Concrete Pump Truck,jOVNKl,2
-2021-06-06,rental,18945,John Locke,Alvarez Group,Galway,Construction,refurbished,Caterpillar,Crane,xxxkPZ,2
-2021-11-07,sale,23428,Kate Austen,"Glenn, Orr and Johnson",Waterford,Landscaping,new,Volvo,Dump Truck,MxvBIQ,3
-2021-01-09,sale,48287,John Locke,Benson-Taylor,Dublin,Construction,refurbished,Komatsu,Front End Loader,DJULtg,2
-2021-02-27,rental,90593,James Ford,"Foster, Austin and Andrews",Wexford,Infrastructure,new,Caterpillar,Front End Loader,ylxjFW,3
-2021-12-16,rental,81106,John Locke,"Jacobs, Davis and Brown",Kerry,Infrastructure,new,Volvo,Crane,zTcIGa,3
-2021-11-07,sale,73955,John Locke,Brown and Sons,Limerick,Demolition,new,Komatsu,Concrete Pump Truck,UmhyLq,4
-2021-01-30,sale,68348,Jack Shephard,"Jackson, Sanchez and Adams",Cork,Construction,refurbished,Komatsu,Bulldozer,tGngDT,1
-2021-02-14,rental,20879,Kate Austen,Patterson Group,Galway,Landscaping,refurbished,Caterpillar,Excavator,SgdgFX,2
-2021-03-22,rental,26050,John Locke,Acosta-Taylor,Kerry,Construction,new,Volvo,Crane,dZfWdT,4
-2021-07-22,sale,40859,John Locke,"Buck, Richardson and Oliver",Kilkenny,Landscaping,refurbished,Volvo,Excavator,UHYrNf,4
-2021-08-31,sale,21572,John Locke,Patel and Sons,Cork,Infrastructure,new,Volvo,Dump Truck,XqrsZb,2
-2021-11-02,rental,51182,Kate Austen,Stone Inc,Cork,Landscaping,new,Haulage,Crane,pISDAl,4
-2021-03-02,sale,63766,Jack Shephard,Davis-Riley,Waterford,Infrastructure,new,Haulage,Crane,ydrjUS,1
-2021-01-05,sale,24649,Kate Austen,"Dixon, Flores and Clark",Limerick,Landscaping,refurbished,Caterpillar,Front End Loader,iiwlBd,4
-2021-02-12,sale,55948,Kate Austen,Taylor Inc,Kilkenny,Infrastructure,new,Komatsu,Paver,Sxitvg,1
-2021-06-28,rental,52385,Kate Austen,"Rodriguez, Simpson and Archer",Kerry,Demolition,refurbished,Haulage,Dump Truck,kKMFgy,1
-2021-10-25,rental,85072,John Locke,Parker-Cooper,Kilkenny,Infrastructure,refurbished,Volvo,Excavator,eRVsxK,4
-2021-01-22,rental,45310,Kate Austen,Parker PLC,Waterford,Demolition,refurbished,Komatsu,Concrete Pump Truck,AwgWNR,1
-2021-07-27,sale,48190,John Locke,Bell-Sampson,Meath,Demolition,new,Komatsu,Backhoe Loader,ZvqCAX,3
-2021-08-26,sale,35995,Kate Austen,Bradley LLC,Wexford,Demolition,new,Komatsu,Paver,DQjZAo,3
-2021-10-09,rental,44331,John Locke,Lopez-Thomas,Dublin,Demolition,new,Volvo,Backhoe Loader,CjMpuq,1
-2021-08-27,rental,22014,Kate Austen,Conner-Burton,Kilkenny,Construction,refurbished,Caterpillar,Paver,cNWVhM,3
-2021-07-27,sale,63573,Kate Austen,Todd Ltd,Limerick,Construction,refurbished,Volvo,Dump Truck,MYDORu,4
-2021-02-16,sale,54223,John Locke,Jones-Moore,Galway,Demolition,new,Haulage,Crane,ttfcQU,1
-2021-04-22,rental,51039,Jack Shephard,Evans LLC,Kerry,Landscaping,refurbished,Komatsu,Backhoe Loader,HdiQDO,4
-2021-01-03,sale,24521,Jack Shephard,"Marks, Olson and Berry",Galway,Infrastructure,refurbished,Haulage,Excavator,NJRKJa,1
-2021-07-20,rental,72168,John Locke,"Barber, Best and Sparks",Galway,Infrastructure,new,Komatsu,Crane,dAeNsL,3
-2021-10-24,sale,83844,Jack Shephard,Miller PLC,Kerry,Demolition,new,Caterpillar,Front End Loader,CVMHLV,3
-2021-06-25,rental,51829,James Ford,Weber-Gibbs,Wexford,Mining,refurbished,Caterpillar,Crane,mDIFpK,4
-2021-04-12,rental,47569,James Ford,Waters Group,Limerick,Demolition,new,Volvo,Backhoe Loader,KHCvCd,3
-2021-10-23,rental,24276,John Locke,Martinez-Hernandez,Waterford,Infrastructure,refurbished,Haulage,Front End Loader,IFtAzk,1
-2021-04-25,sale,28599,John Locke,"Campos, Rodriguez and Dyer",Kilkenny,Construction,refurbished,Haulage,Backhoe Loader,KFjqHg,1
+2021-08-16,sale,77731,Jack Shephard,Wood-Ferrell,Wexford,Landscaping,refurbished,Caterpillar,Crane,RgyJeE,3
+2021-07-30,rental,74989,Kate Austen,"Osborne, Dixon and Durham",Galway,Infrastructure,new,Komatsu,Paver,gNPCLa,1
+2021-03-22,sale,41349,John Locke,"Price, Morales and Ramos",Kilkenny,Construction,refurbished,Komatsu,Crane,AgqGqH,3
+2021-03-17,sale,21607,John Locke,"Henderson, Obrien and Hernandez",Kerry,Demolition,new,Volvo,Bulldozer,wnvrjj,3
+2021-07-21,rental,17021,Jack Shephard,"Klein, Jones and Edwards",Kerry,Infrastructure,refurbished,Caterpillar,Front End Loader,GpdooC,1
+2021-04-03,rental,85059,James Ford,Warner-Brown,Meath,Infrastructure,new,Komatsu,Crane,Tavbbg,1
+2021-06-07,rental,37354,James Ford,Gibson-King,Waterford,Mining,new,Caterpillar,Excavator,WivSEm,4
+2021-04-07,rental,26552,James Ford,Flores and Sons,Meath,Infrastructure,new,Caterpillar,Dump Truck,EjVdKw,1
+2021-03-26,rental,13174,John Locke,"Reed, Williams and Nichols",Waterford,Mining,refurbished,Haulage,Dump Truck,xDjHRJ,2
+2021-06-26,sale,69701,Jack Shephard,Brown LLC,Wexford,Infrastructure,new,Volvo,Front End Loader,EJKFtk,1
+2021-07-30,rental,47478,Jack Shephard,"Weaver, Smith and Stewart",Kerry,Demolition,refurbished,Caterpillar,Bulldozer,ZZWQQr,1
+2021-03-25,sale,40071,Kate Austen,"Hart, Lewis and Warren",Kerry,Mining,refurbished,Haulage,Paver,TGlEqV,1
+2021-08-22,rental,66468,John Locke,"Roth, Williams and Stout",Galway,Landscaping,refurbished,Caterpillar,Bulldozer,IexNkV,3
+2021-02-11,sale,11677,James Ford,"James, Peterson and Brown",Kilkenny,Mining,new,Haulage,Excavator,fRnkWM,2
+2021-01-24,sale,99901,Jack Shephard,Roberts Inc,Galway,Construction,refurbished,Volvo,Paver,ADsxyo,1
+2021-06-26,rental,60435,John Locke,Harris and Sons,Limerick,Infrastructure,new,Caterpillar,Backhoe Loader,xWOvOx,1
+2021-02-09,sale,18212,James Ford,Brown-Harrison,Kerry,Infrastructure,refurbished,Volvo,Dump Truck,ZvzGmT,1
+2021-11-18,rental,54585,James Ford,Washington Group,Cork,Construction,refurbished,Caterpillar,Dump Truck,hVxrPu,3
+2021-06-14,rental,22787,Kate Austen,Foster-Preston,Kerry,Mining,new,Komatsu,Bulldozer,PrGFHl,4
+2021-02-12,sale,66587,Jack Shephard,"Simpson, Bailey and Dixon",Galway,Mining,refurbished,Caterpillar,Concrete Pump Truck,FGhDuB,1
+2021-08-07,sale,46423,Kate Austen,"Jackson, Roberts and Rose",Limerick,Infrastructure,new,Volvo,Bulldozer,fWlduA,3
+2021-06-02,sale,73800,John Locke,Bradley-Martinez,Cork,Mining,refurbished,Komatsu,Excavator,mzRzgo,4
+2021-02-06,rental,76740,Jack Shephard,"Garcia, Brown and Jones",Waterford,Construction,new,Caterpillar,Crane,msFksu,3
+2021-11-14,sale,59213,John Locke,Burnett-Arnold,Dublin,Construction,new,Volvo,Excavator,bmfdYq,2
+2021-05-07,rental,42046,James Ford,"Stephens, Gray and Rodriguez",Galway,Demolition,refurbished,Caterpillar,Bulldozer,qOlkKQ,2
+2021-04-07,sale,40209,Jack Shephard,Keller PLC,Cork,Infrastructure,refurbished,Komatsu,Excavator,KyRXKC,3
+2021-09-20,sale,26401,James Ford,"Brooks, Jackson and Rose",Wexford,Mining,new,Volvo,Dump Truck,TEfEPj,4
+2021-10-04,rental,79186,Kate Austen,Robinson-Turner,Waterford,Landscaping,new,Caterpillar,Bulldozer,nwyhbw,4
+2021-10-11,rental,64984,John Locke,Oconnor Ltd,Dublin,Infrastructure,refurbished,Volvo,Crane,JADeMN,1
+2021-03-30,sale,17297,James Ford,Johnson-Mccormick,Cork,Mining,refurbished,Volvo,Excavator,bkSRfT,3
+2021-05-23,sale,15909,John Locke,Griffith Inc,Waterford,Infrastructure,refurbished,Haulage,Excavator,GOUnIy,1
+2021-06-08,rental,93846,Kate Austen,"Daniels, Garcia and Alvarado",Cork,Construction,refurbished,Volvo,Bulldozer,IJkNqL,2
+2021-07-24,sale,72773,Kate Austen,"Jacobs, Sanchez and Hines",Wexford,Demolition,refurbished,Haulage,Dump Truck,PnFDcs,2
+2021-07-28,rental,15593,John Locke,"Greene, Chan and Michael",Galway,Demolition,refurbished,Caterpillar,Excavator,jfmgvC,2
+2021-01-15,sale,38078,James Ford,"Webb, Garcia and Berry",Dublin,Construction,refurbished,Volvo,Bulldozer,pgqlhb,4
+2021-12-18,sale,83034,Kate Austen,"Townsend, Copeland and Adams",Meath,Infrastructure,refurbished,Haulage,Paver,SOUayu,2
+2021-12-14,sale,67144,Jack Shephard,Clark-Trujillo,Cork,Construction,refurbished,Komatsu,Front End Loader,OTzWtW,4
+2021-10-21,rental,51517,Kate Austen,Schultz-Spencer,Wexford,Mining,refurbished,Komatsu,Backhoe Loader,RKitRW,1
+2021-11-11,sale,71454,James Ford,Pratt-Walls,Kerry,Demolition,new,Caterpillar,Bulldozer,petBak,4
+2021-02-17,sale,32296,Kate Austen,Barker-Marquez,Limerick,Construction,refurbished,Komatsu,Paver,kLIrfL,3
+2021-10-31,sale,69837,Kate Austen,Summers-Smith,Meath,Construction,refurbished,Haulage,Paver,FyqGFV,4
+2021-07-25,sale,91261,Kate Austen,Mitchell-Boyd,Cork,Demolition,new,Komatsu,Concrete Pump Truck,MqRSjD,4
+2021-06-17,sale,82307,Kate Austen,"Edwards, Johnson and Burton",Galway,Construction,refurbished,Komatsu,Paver,iurBrI,4
+2021-04-07,sale,92786,Jack Shephard,Cain-Williams,Kilkenny,Landscaping,refurbished,Haulage,Concrete Pump Truck,BbapBC,3
+2021-01-25,rental,11548,John Locke,Howell-Diaz,Wexford,Demolition,new,Haulage,Dump Truck,MgiKPK,3
+2021-01-21,rental,45211,James Ford,Wiley Ltd,Galway,Demolition,refurbished,Volvo,Front End Loader,eraYFu,2
+2021-04-19,sale,58984,Kate Austen,"Cross, Mcfarland and Jones",Cork,Infrastructure,refurbished,Volvo,Backhoe Loader,JvWOWr,3
+2021-06-21,rental,34435,Jack Shephard,Howard-Day,Wexford,Mining,new,Komatsu,Crane,nWHeMI,3
+2021-03-02,sale,55392,John Locke,Reynolds PLC,Limerick,Landscaping,new,Caterpillar,Backhoe Loader,tkXiZV,3
+2021-02-26,rental,28266,Kate Austen,Martin Ltd,Dublin,Demolition,new,Volvo,Bulldozer,rsCoAg,2
+2021-10-11,rental,91029,Jack Shephard,Payne and Sons,Limerick,Construction,new,Haulage,Excavator,tEWsRm,1
+2021-08-08,rental,51872,James Ford,"Garcia, Sanchez and Knight",Kerry,Landscaping,refurbished,Caterpillar,Front End Loader,plCgFs,1
+2021-12-19,sale,33510,Kate Austen,Cooper-Small,Kilkenny,Landscaping,new,Volvo,Front End Loader,yzeZAN,1
+2021-06-27,rental,13840,Kate Austen,"Finley, Anderson and Payne",Kilkenny,Landscaping,new,Caterpillar,Front End Loader,omPOcL,1
+2021-09-04,rental,37111,James Ford,Johnson PLC,Galway,Demolition,refurbished,Volvo,Crane,NYxvYv,3
+2021-06-11,rental,81224,Kate Austen,Watson Inc,Dublin,Infrastructure,new,Caterpillar,Paver,mUZsbm,1
+2021-08-01,sale,72091,Kate Austen,"Fox, Schultz and Harvey",Waterford,Mining,new,Caterpillar,Excavator,LhMbbA,2
+2021-02-04,rental,71824,James Ford,"Fisher, Quinn and Martin",Galway,Construction,refurbished,Volvo,Bulldozer,prloKq,2
+2021-08-26,rental,68279,Jack Shephard,"Palmer, Moss and Rivera",Limerick,Mining,new,Caterpillar,Bulldozer,djKBAN,3
+2021-10-23,sale,10140,Kate Austen,"Alexander, Nicholson and Russell",Meath,Demolition,new,Volvo,Backhoe Loader,tfbcnq,4
+2021-08-08,rental,94271,Kate Austen,Chapman-Christensen,Kilkenny,Construction,refurbished,Haulage,Front End Loader,nGlFMu,3
+2021-07-11,rental,91854,Jack Shephard,Beck Group,Limerick,Landscaping,new,Caterpillar,Excavator,yFAIQQ,2
+2021-03-30,rental,59261,James Ford,"Robbins, Ward and Wang",Limerick,Construction,new,Caterpillar,Concrete Pump Truck,DAKZmK,4
+2021-09-29,rental,27156,Jack Shephard,Hill Ltd,Galway,Infrastructure,refurbished,Caterpillar,Dump Truck,RARYxE,3
+2021-05-04,rental,39106,John Locke,"Dixon, Wade and Obrien",Limerick,Infrastructure,refurbished,Haulage,Dump Truck,UyiYFH,4
+2021-04-19,sale,31647,John Locke,Smith-Roberts,Dublin,Landscaping,new,Haulage,Backhoe Loader,pZkFWB,3
+2021-10-22,sale,74228,Jack Shephard,Weaver Inc,Meath,Demolition,refurbished,Haulage,Crane,Lkjxcx,2
+2021-05-21,rental,26753,James Ford,Wagner-Schultz,Cork,Construction,refurbished,Caterpillar,Bulldozer,KjvhHT,2
+2021-12-29,sale,77117,James Ford,Rogers LLC,Waterford,Landscaping,new,Komatsu,Front End Loader,BdVsnF,4
+2021-07-05,sale,66889,James Ford,Reed PLC,Limerick,Landscaping,refurbished,Volvo,Paver,pqGOkj,1
+2021-03-17,rental,23603,Kate Austen,Olsen-Griffin,Kerry,Mining,new,Komatsu,Excavator,bxEIJc,2
+2021-03-16,sale,70801,James Ford,Rivera PLC,Wexford,Infrastructure,new,Haulage,Backhoe Loader,BcAKWR,1
+2021-06-04,rental,50145,James Ford,"Sellers, Doyle and Long",Galway,Mining,new,Komatsu,Dump Truck,DoqORV,2
+2021-04-19,rental,24610,John Locke,Rivas and Sons,Dublin,Mining,refurbished,Volvo,Backhoe Loader,DARCkm,2
+2021-02-18,rental,68007,Jack Shephard,"Powers, Jones and James",Kerry,Mining,new,Caterpillar,Excavator,syiezX,4
+2021-08-21,sale,44095,Kate Austen,"Murphy, Thomas and Lee",Cork,Construction,refurbished,Komatsu,Concrete Pump Truck,xaanSu,3
+2021-11-06,sale,63030,Jack Shephard,Jennings-Salazar,Wexford,Landscaping,new,Volvo,Crane,nAtNPM,1
+2021-02-15,rental,97425,James Ford,Short Group,Meath,Mining,new,Komatsu,Concrete Pump Truck,pEjeVJ,3
+2021-01-15,sale,67912,John Locke,Barron-Walker,Galway,Demolition,new,Caterpillar,Concrete Pump Truck,Hzkxou,1
+2021-12-19,sale,43241,Jack Shephard,"Chambers, Werner and Gomez",Wexford,Construction,refurbished,Komatsu,Front End Loader,RdjVQY,1
+2021-11-11,rental,73892,James Ford,"Price, Campos and Bradley",Cork,Construction,refurbished,Haulage,Front End Loader,zFerzm,3
+2021-06-09,sale,19824,John Locke,Mcneil-Douglas,Kilkenny,Mining,new,Komatsu,Paver,soQAPb,3
+2021-10-25,sale,25695,Kate Austen,"Pruitt, Wilson and Herrera",Kilkenny,Landscaping,refurbished,Haulage,Dump Truck,WgutTL,1
+2021-03-18,sale,41323,John Locke,Pittman-Rubio,Kilkenny,Construction,new,Volvo,Bulldozer,SdTFfN,2
+2021-07-26,sale,18021,John Locke,Calderon-Hernandez,Galway,Demolition,new,Caterpillar,Paver,rgcYXc,1
+2021-06-12,rental,99726,Kate Austen,"Rodriguez, Rogers and Williams",Galway,Landscaping,new,Haulage,Crane,nLBXWQ,3
+2021-10-29,rental,25790,Kate Austen,Cherry LLC,Meath,Landscaping,refurbished,Volvo,Crane,muCCyu,2
+2021-03-21,sale,76493,Kate Austen,Gilbert Ltd,Galway,Landscaping,refurbished,Haulage,Bulldozer,lYaRiR,2
+2021-05-06,rental,10921,James Ford,Howard-Pierce,Kilkenny,Landscaping,refurbished,Volvo,Excavator,CvLkAf,4
+2021-04-17,rental,69283,Kate Austen,"Williams, Turner and Williams",Wexford,Landscaping,refurbished,Haulage,Bulldozer,dOtlLt,4
+2021-07-27,sale,15236,John Locke,Christensen-Flores,Waterford,Construction,refurbished,Caterpillar,Excavator,dOSarz,3
+2021-10-13,sale,54784,James Ford,Allen-Goodwin,Dublin,Landscaping,refurbished,Haulage,Bulldozer,CrTTEZ,2
+2021-02-28,sale,57633,Jack Shephard,Contreras-Wells,Kerry,Landscaping,refurbished,Volvo,Paver,SWINgj,3
+2021-04-22,sale,34302,James Ford,"Thomas, Rollins and Lee",Waterford,Demolition,new,Haulage,Concrete Pump Truck,Dnlnil,1
+2021-03-14,rental,19258,John Locke,Mendoza PLC,Kilkenny,Infrastructure,new,Komatsu,Front End Loader,kPUxVF,4
+2021-05-23,rental,29715,John Locke,"Bradshaw, Rogers and Smith",Cork,Landscaping,refurbished,Caterpillar,Excavator,euowiW,3
+2021-07-05,rental,72736,Jack Shephard,"Miller, Garza and Maldonado",Cork,Mining,new,Caterpillar,Front End Loader,GRXLzo,2
+2021-05-17,rental,46535,Jack Shephard,Farley PLC,Cork,Construction,new,Caterpillar,Excavator,VjnOxA,4
+2021-02-17,rental,76482,Kate Austen,Rush-Villanueva,Cork,Infrastructure,new,Caterpillar,Excavator,zqZHxF,3
+2021-06-22,rental,11263,Kate Austen,Harris PLC,Kerry,Construction,refurbished,Caterpillar,Concrete Pump Truck,nhghFC,1
+2021-10-04,sale,63606,Kate Austen,"Howell, Lang and Brooks",Galway,Landscaping,refurbished,Komatsu,Concrete Pump Truck,dsrlyw,1
+2021-08-12,rental,55242,Jack Shephard,Wells and Sons,Galway,Construction,refurbished,Haulage,Front End Loader,xUTnNY,2
+2021-01-10,sale,77183,James Ford,Brock Ltd,Dublin,Landscaping,refurbished,Komatsu,Front End Loader,booFvJ,1
+2021-10-12,rental,67571,John Locke,"Johnson, Yates and Dunn",Meath,Demolition,refurbished,Haulage,Concrete Pump Truck,ymaEKT,2
+2021-05-28,rental,92643,Kate Austen,Porter Group,Limerick,Infrastructure,refurbished,Caterpillar,Excavator,AWATnc,2
+2021-05-24,rental,21537,John Locke,Farmer-Pierce,Limerick,Construction,new,Haulage,Front End Loader,sCPupR,4
+2021-08-10,sale,67036,Jack Shephard,"Waller, Jimenez and Vega",Cork,Landscaping,new,Volvo,Paver,OFMNZe,3
+2021-06-21,rental,96313,Kate Austen,"Beck, Mcfarland and Taylor",Cork,Mining,refurbished,Komatsu,Paver,vepsbA,2
+2021-12-01,rental,48208,John Locke,Meyers-Adams,Galway,Mining,refurbished,Komatsu,Front End Loader,UAxeib,4
+2021-04-13,sale,47990,Kate Austen,Cook Group,Dublin,Mining,new,Haulage,Concrete Pump Truck,imSHrl,4
+2021-12-09,sale,43478,John Locke,Wolfe and Sons,Wexford,Demolition,refurbished,Volvo,Front End Loader,xsHYFL,3
+2021-05-06,sale,76791,Kate Austen,"Walsh, Reyes and Patterson",Galway,Demolition,refurbished,Volvo,Dump Truck,CcOdZV,3
+2021-08-07,rental,60421,John Locke,"Gibson, Hendricks and Russell",Wexford,Infrastructure,refurbished,Haulage,Dump Truck,LgAHuv,3
+2021-01-03,rental,23981,Jack Shephard,Skinner LLC,Cork,Infrastructure,refurbished,Caterpillar,Bulldozer,vnTMkk,4
+2021-01-12,rental,89099,Jack Shephard,Garcia-Brown,Cork,Mining,refurbished,Volvo,Excavator,IfzHhS,4
+2021-03-01,sale,83003,Jack Shephard,Jenkins-Butler,Meath,Landscaping,new,Komatsu,Front End Loader,yovVZR,3
+2021-01-23,rental,74744,Jack Shephard,Avery Group,Galway,Demolition,new,Volvo,Front End Loader,WLmqeK,1
+2021-10-20,rental,42541,Jack Shephard,"Willis, Aguilar and Yoder",Limerick,Infrastructure,refurbished,Haulage,Bulldozer,ohFwHv,1
+2021-11-12,rental,22597,Jack Shephard,Frey LLC,Galway,Landscaping,refurbished,Volvo,Bulldozer,haWkuh,2
+2021-12-20,rental,76220,James Ford,"Lam, Duncan and Warren",Kerry,Infrastructure,refurbished,Komatsu,Front End Loader,gUKOzm,4
+2021-01-16,rental,65678,Jack Shephard,Hammond-Jensen,Meath,Mining,new,Haulage,Concrete Pump Truck,xMOmUy,2
+2021-03-12,rental,35199,John Locke,Wright LLC,Meath,Mining,refurbished,Komatsu,Excavator,tSGWeh,4
+2021-04-08,rental,36356,John Locke,Wheeler Group,Limerick,Mining,new,Haulage,Front End Loader,mtpuVb,1
+2021-05-21,rental,35054,Kate Austen,Hogan-Valdez,Meath,Construction,new,Komatsu,Crane,WEbuWy,3
+2021-02-09,sale,12011,John Locke,Kirk LLC,Dublin,Landscaping,new,Haulage,Excavator,nnNjhE,4
+2021-07-17,rental,28510,James Ford,"Henderson, Herrera and Molina",Dublin,Landscaping,new,Haulage,Bulldozer,FXHmqf,2
+2021-11-12,rental,35647,Jack Shephard,"Evans, Brown and Gordon",Kerry,Infrastructure,refurbished,Caterpillar,Bulldozer,XVarnK,2
+2021-03-08,rental,70553,Kate Austen,Adams-Ellison,Wexford,Landscaping,refurbished,Volvo,Bulldozer,nxddQu,4
+2021-08-15,rental,62945,Kate Austen,Bowman-Wall,Kerry,Infrastructure,refurbished,Komatsu,Concrete Pump Truck,POgYIk,3
+2021-06-17,sale,75921,James Ford,Mckenzie PLC,Cork,Infrastructure,refurbished,Volvo,Front End Loader,Tivazt,4
+2021-09-29,sale,48342,Kate Austen,Watson-Watkins,Limerick,Infrastructure,refurbished,Komatsu,Excavator,wlnWQV,1
+2021-08-11,sale,31965,Kate Austen,Mcdonald Inc,Wexford,Demolition,refurbished,Caterpillar,Concrete Pump Truck,cePcFg,4
+2021-07-22,sale,43617,Kate Austen,Brown-Boone,Wexford,Landscaping,new,Caterpillar,Concrete Pump Truck,Qhzijl,1
+2021-02-15,rental,71609,Jack Shephard,"Evans, Vargas and Smith",Wexford,Infrastructure,refurbished,Caterpillar,Backhoe Loader,MYumjx,1
+2021-05-08,rental,11344,John Locke,Weaver LLC,Wexford,Mining,new,Volvo,Front End Loader,QKPfAV,2
+2021-02-16,rental,24769,Jack Shephard,Anderson-Ramos,Waterford,Demolition,refurbished,Volvo,Bulldozer,xIlWHB,4
+2021-03-03,sale,23959,Jack Shephard,Parker Ltd,Wexford,Demolition,refurbished,Volvo,Paver,JdFsDw,3
+2021-09-20,sale,39153,John Locke,"Sosa, Herrera and Walker",Galway,Construction,refurbished,Caterpillar,Excavator,khXJEr,4
+2021-04-05,rental,12363,Kate Austen,Weber LLC,Galway,Mining,refurbished,Komatsu,Excavator,KvcqFN,2
+2021-04-03,rental,17087,Kate Austen,"Clark, Thompson and Martin",Dublin,Mining,new,Volvo,Bulldozer,JptSPt,3
+2021-09-01,sale,31569,John Locke,Jones-Meyer,Galway,Landscaping,new,Haulage,Front End Loader,fMuOHS,1
+2021-08-11,rental,77609,James Ford,Pham Inc,Limerick,Construction,new,Haulage,Front End Loader,JUNhoc,4
+2021-10-22,rental,14028,James Ford,White-Wood,Meath,Demolition,refurbished,Volvo,Excavator,SoSrPK,3
+2021-04-01,rental,98669,John Locke,Lee-Mckee,Kilkenny,Construction,new,Caterpillar,Bulldozer,wUzTnA,1
+2021-11-19,rental,50492,John Locke,Thompson-Bentley,Galway,Construction,refurbished,Komatsu,Paver,uqVRCz,3
+2021-10-23,sale,17214,James Ford,"Neal, Moreno and Fox",Dublin,Construction,refurbished,Caterpillar,Dump Truck,AKrDHx,3
+2021-09-06,sale,38941,Kate Austen,"Andrade, Raymond and Lopez",Waterford,Landscaping,new,Caterpillar,Crane,thCpKJ,3
+2021-01-04,sale,81166,Jack Shephard,Gomez Group,Dublin,Landscaping,new,Caterpillar,Backhoe Loader,kXUjmI,3
+2021-12-20,sale,10658,John Locke,Mueller-Ibarra,Limerick,Construction,refurbished,Caterpillar,Backhoe Loader,cyGCcw,3
+2021-05-08,rental,78791,James Ford,Chandler Inc,Kerry,Demolition,refurbished,Caterpillar,Backhoe Loader,GCspss,1
+2021-05-11,sale,17695,Kate Austen,Rice-Lopez,Limerick,Landscaping,refurbished,Haulage,Dump Truck,SyFqHP,2
+2021-08-14,sale,57490,John Locke,Clarke Inc,Kilkenny,Landscaping,refurbished,Komatsu,Backhoe Loader,tMYRDI,1
+2021-09-20,sale,91569,John Locke,Clark-Walton,Kerry,Construction,new,Volvo,Crane,EClWxh,1
+2021-03-21,rental,50141,John Locke,"Riley, Solomon and Rose",Waterford,Mining,new,Volvo,Excavator,CeAgff,2
+2021-06-21,sale,54726,Jack Shephard,Schneider and Sons,Cork,Construction,refurbished,Volvo,Excavator,bfiSNu,1
+2021-06-24,sale,71912,John Locke,"Willis, Rojas and Rangel",Galway,Landscaping,refurbished,Caterpillar,Paver,lRTOdz,1
+2021-05-05,sale,61701,Kate Austen,"Castro, Schneider and Butler",Galway,Demolition,new,Volvo,Bulldozer,XHNQDJ,2
+2021-09-10,rental,33561,Kate Austen,"Stewart, Parker and Bryant",Limerick,Demolition,new,Komatsu,Crane,tqKqQN,4
+2021-09-13,sale,83089,John Locke,"Reed, Callahan and Tran",Kilkenny,Construction,refurbished,Komatsu,Concrete Pump Truck,oJZIuP,1
+2021-10-15,sale,36085,John Locke,Hobbs Ltd,Dublin,Demolition,new,Haulage,Crane,YnSnTQ,4
+2021-05-21,rental,93922,John Locke,Contreras PLC,Kerry,Demolition,new,Haulage,Excavator,aDrPzs,3
+2021-10-01,sale,68230,Kate Austen,Campbell-Chavez,Galway,Infrastructure,new,Komatsu,Dump Truck,gaoeQB,3
+2021-04-19,rental,32096,Jack Shephard,Sosa-Higgins,Wexford,Landscaping,refurbished,Caterpillar,Dump Truck,vrzdNj,3
+2021-06-30,sale,39510,John Locke,"Fry, Buck and Luna",Galway,Infrastructure,new,Caterpillar,Paver,XzgTEe,3
+2021-12-23,rental,57222,Kate Austen,Anderson-Blanchard,Wexford,Construction,new,Komatsu,Concrete Pump Truck,DaRCek,3
+2021-08-28,rental,69893,Jack Shephard,Fowler-Clark,Kilkenny,Landscaping,new,Volvo,Bulldozer,sOElLT,1
+2021-10-24,sale,24591,James Ford,Conner-Brown,Wexford,Mining,new,Volvo,Paver,bKcEUW,1
+2021-08-14,sale,25128,Kate Austen,Clark and Sons,Wexford,Mining,new,Komatsu,Dump Truck,qcIHDC,2
+2021-02-13,sale,38483,John Locke,Griffin Inc,Wexford,Infrastructure,refurbished,Caterpillar,Concrete Pump Truck,ZWQTwU,1
+2021-08-10,rental,19084,James Ford,Woods-Massey,Galway,Construction,new,Haulage,Bulldozer,zvBMaD,2
+2021-11-14,sale,74947,Kate Austen,Willis and Sons,Limerick,Infrastructure,refurbished,Volvo,Front End Loader,uRhAMm,3
+2021-12-13,sale,90606,James Ford,"Butler, Rodriguez and Hall",Kerry,Construction,refurbished,Volvo,Concrete Pump Truck,fXjOQn,3
+2021-10-14,rental,20386,Kate Austen,"Valdez, Hernandez and Dillon",Kilkenny,Construction,refurbished,Volvo,Concrete Pump Truck,uefdFF,2
+2021-07-18,sale,97703,James Ford,Gonzalez PLC,Kerry,Construction,new,Komatsu,Dump Truck,qkuhiw,4
+2021-08-17,rental,29827,Kate Austen,Adams Ltd,Waterford,Demolition,refurbished,Haulage,Crane,kQnjPo,1
+2021-04-18,rental,49145,John Locke,Burgess PLC,Galway,Demolition,refurbished,Caterpillar,Crane,wInhjr,3
+2021-11-01,rental,53679,James Ford,Cook Ltd,Limerick,Infrastructure,refurbished,Haulage,Front End Loader,CVlmqI,4
+2021-02-13,rental,76592,James Ford,"Sheppard, Johnson and Johnson",Wexford,Demolition,new,Komatsu,Bulldozer,iPosau,1
+2021-02-05,rental,14351,James Ford,Bruce Ltd,Dublin,Infrastructure,refurbished,Komatsu,Dump Truck,SPAePe,1
+2021-01-12,rental,91177,John Locke,Lawrence-Wilson,Kilkenny,Mining,refurbished,Haulage,Backhoe Loader,DhJNwo,3
+2021-09-11,rental,10943,James Ford,Martin PLC,Cork,Landscaping,new,Caterpillar,Backhoe Loader,UycBzZ,1
+2021-01-13,sale,27051,Kate Austen,Perez Inc,Galway,Demolition,refurbished,Volvo,Crane,KIEUeE,4
+2021-05-24,rental,76195,Jack Shephard,"Huffman, Mclaughlin and Allen",Dublin,Landscaping,new,Volvo,Front End Loader,BWdRgB,1
+2021-12-07,rental,11524,Jack Shephard,Williamson LLC,Galway,Landscaping,refurbished,Komatsu,Bulldozer,MXwpes,3
+2021-04-15,rental,87424,Kate Austen,Sanchez and Sons,Waterford,Infrastructure,refurbished,Caterpillar,Backhoe Loader,CtWxkr,2
+2021-09-22,sale,36923,Jack Shephard,Reed-Schroeder,Galway,Landscaping,refurbished,Volvo,Dump Truck,DXXvDl,4
+2021-09-02,sale,23741,Kate Austen,Nguyen Group,Limerick,Infrastructure,refurbished,Haulage,Excavator,sJZPpy,3
+2021-12-10,rental,95893,Kate Austen,Ramirez LLC,Dublin,Construction,new,Caterpillar,Dump Truck,OboKts,3
+2021-11-18,rental,39451,John Locke,Pruitt PLC,Dublin,Demolition,new,Haulage,Front End Loader,hMdJPA,2
+2021-08-24,rental,74845,John Locke,"Ruiz, Moon and Phillips",Dublin,Infrastructure,new,Haulage,Excavator,vnSBKg,4
+2021-12-16,rental,52376,James Ford,Long-Williamson,Limerick,Demolition,new,Volvo,Concrete Pump Truck,nJNIID,4
+2021-06-16,rental,35348,Jack Shephard,"Wise, Quinn and Wilson",Wexford,Construction,new,Caterpillar,Excavator,FhGSdS,4
+2021-03-06,sale,36217,James Ford,"Johnson, Brown and Miller",Meath,Mining,new,Komatsu,Bulldozer,MpoBfj,2
+2021-07-31,sale,24170,James Ford,Snyder-Jones,Meath,Mining,new,Haulage,Dump Truck,FyZedI,4
+2021-04-17,rental,46788,Jack Shephard,Moreno PLC,Dublin,Landscaping,new,Volvo,Backhoe Loader,CCQEOo,2
+2021-01-24,sale,29889,John Locke,"Mcdowell, Ellis and Martin",Dublin,Mining,refurbished,Volvo,Backhoe Loader,QjIfUl,1
+2021-02-15,sale,77512,Jack Shephard,Pittman PLC,Kilkenny,Landscaping,new,Volvo,Concrete Pump Truck,CiWvuP,4
+2021-07-01,rental,70746,Kate Austen,"Taylor, Rodriguez and Thomas",Limerick,Landscaping,new,Caterpillar,Crane,lSYaYD,1
+2021-12-09,rental,95493,Kate Austen,Lewis-Novak,Cork,Construction,new,Caterpillar,Front End Loader,kawfeB,1
+2021-02-13,sale,38879,John Locke,Johnson-Mcfarland,Dublin,Demolition,refurbished,Volvo,Crane,cUfZJO,2
