@@ -21,8 +21,8 @@ def generate_sales_data(num_rows=100):
     # Create a list to hold the data rows
     sales_data = []
 
-    # Generate 100 rows of data
-    for _ in range(num_rows=100):
+    # Generate x rows of data based on argument passed - num_rows
+    for _ in range(num_rows):
         date = fake.date_between(start_date=datetime.date(2021, 1, 1), end_date=datetime.date(2021, 12, 30))
         finance_type = random.choice(finance_types)
         order_no = str(random.randint(10000, 99999))
