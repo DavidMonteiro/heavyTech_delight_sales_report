@@ -13,15 +13,7 @@ import report_generator as generator
 import csv_generator as myCSV
 
 
-#def upload_sales_data():
-#   #User gets to upload his own sales data
-#   file_path = input("Please enter the path to the CSV file you want to upload: \n")
-#
-#   # Check if the file exists
-#   if os.path.exists(file_path):
-#       generate_report(file_path)
-#   else:
-#       print("File not found!")
+
 
 
 def start_html_report():
@@ -83,7 +75,7 @@ def run_Main():
         generate_report('heavyTech_delight_sales_2021.csv')
         
     elif choice.lower() == '2':
-        #upload_sales_data()
+        #
         print("Oops.. This is still in construction")
     else:
         #I am calling the function itself making it recursive

@@ -4,14 +4,14 @@ Welcome to the Heavy Machinery Company Sales Report Generator repository. This R
 
 ## Overview
 
-The Heavy Machinery Company Sales Report is a Python-based program that demonstrates how sales data can be managed and visualized for a heavy machinery company. The program simulates a year's worth of sales, generating data such as product names, quantities, prices, and customer information.
+The Heavy Machinery Company Sales Report is a Python-based program that demonstrates how sales data can be managed and visualized for a heavy machinery company. The program simulates a year's worth of sales, generating data such as product names, quantities, prices, and customer information. Then it generates a html page that will provide visual graphs and charts using plotly library for users to get an understanding of their data
 
 ## Features
-In this python program I make use of python libraries such as pandas and plotly
+In this python program I make use of python libraries such as pandas, plotly and io_operations
 
 ### Data Generation
 
-The data generation program creates a CSV file containing sales data for heavy machinery products. It simulates transactions with varying quantities, prices, and customer details. The generated CSV file serves as the input for the sales report visualization.
+The data generation program (csv_generator.py) creates a CSV file containing sales data for heavy machinery products. It simulates transactions with varying quantities, prices, and customer details. The generated CSV file serves as the input for the sales report visualization.
 
 ### Sales Report Visualization
 
@@ -25,11 +25,18 @@ You can access the deployed application at [Heroku App Link](https://heavytech-d
 
 ## Usage
 
+To run the application, access the deployed website [here](https://heavytech-delight-sales-report-995633807fb3.herokuapp.com/).
+
+Upon opening the website, you'll find a simple user interface offering two options:
+1. **Generate a Mock CSV File** This option will automatically generate a mock CSV file. After selecting this option, the program will call the *generate_sales_data()* method to create the CSV file. Subsequently, it will run the *generate_report()* method to generate a report. The resulting report will be saved as *sales_report.html*.
+2. **Upload Your Own CSV File** This option is a work in progress and currently unavailable. However, it will be ready soon. 
+
+
 
 ## Future Enhancements
 
 I an committed to enhancing the Heavy Machinery Company Sales Report  with new features and improvements. Some potential future enhancements include:
 
-- Integration with real sales data sources.
-- Additional visualization types and customization options.
-- Export options for the generated sales report.
+- Allowing users to upload their own **CSV** files .
+- Allow the insertion of 2 csv files i.e data from two different years and produce charts and graphs comparing the results.
+- Allow the users the option to download the html report file or access it in a diffent tab.
