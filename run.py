@@ -73,6 +73,7 @@ def run_Main():
     if choice.lower() == '1':
         myCSV.generate_sales_data(200)
         generate_report('heavyTech_delight_sales_2021.csv')
+        print("Report complete! Access it by opening the file sales_report.html")
         
     elif choice.lower() == '2':
         #
