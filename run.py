@@ -76,7 +76,7 @@ def generate_report(filename):
 
 def run_Main():
     print("Hi! This is the Report Generator for Sales of Heavy Machinery!")
-    choice = input("Do you want to use a mock CSV (enter '1') or upload your own CSV (enter '2')? ")
+    choice = input("Do you want to use a mock CSV (enter '1') or upload your own CSV (enter '2')? \n")
 
     if choice.lower() == '1':
         myCSV.generate_sales_data(200)
