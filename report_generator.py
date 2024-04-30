@@ -23,3 +23,33 @@ def order_info_table(df, purchase_agreement):
                      ])
     fig.update_layout(title_text = f"{purchase_agreement.capitalize()} Table", width=500, height= 400)
     return fig.to_html(full_html=True, include_plotlyjs='cdn') 
+
+def rental_Analysis(df):
+    rental_df = df[df['Finance_Type'] == 'rental']
+    
+    html_content =  "<h2 id=\"Rental Analysis\">Rental Analysis</h2>"
+    html_content += order_info_table(rental_df, "Rental")
+
+    html_content +=  "<h3 id=\"Rental Order Information\">Rental Order Information</h3>"
+    html_content += ord_report.order_Analysis(rental_df)
+    
+    html_content +=  "<h3 id=\"Rental Product Information\">Rental Product Information</h3>"
+    html_content += prd_report.product_Analysis(rental_df)
+
+    return html_content
+    
+def sale_Analysis(df):
+    sale_df = df[df['Finance_Type'] == 'sale']
+    
+    html_content =  "<h2 id=\"Sale Analysis\">Sale Analysis</h2>"
+    html_content += order_info_table(sale_df, "Sale")
+    
+
+    html_content +=  "<h3 id=\"Sales Order Information\">Sales Order Information</h3>"
+    html_content += ord_report.order_Analysis(sale_df)
+    
+
+    html_content +=  "<h3 id=\"Sales Product Information\">Sales Product Information</h3>"
+    html_content += prd_report.product_Analysigit s(sale_df)
+
+    return html_content
