@@ -89,10 +89,10 @@ def general_bubble_chart(df):
     return fig.to_html(full_html=True, include_plotlyjs='cdn')
 
 
-def general_Analysis(df, html_content0):
+def general_Analysis(df):
     """Master function to generate all functions above and add them to the file """
 
-    html_content0 +=  "<h2 id=\"General Information\">General Information</h2>"
+    html_content =  "<h2 id=\"General Information\">General Information</h2>"
 
     # Generate the table, the scatter chart and the donut chart
     table_fig = general_data_table(df)
@@ -100,8 +100,8 @@ def general_Analysis(df, html_content0):
     donut_chart_fig = general_data_donutChart(df)
 
     #Push the table and the chart into the html string
-    html_content0 +=  table_fig
-    html_content0 +=  scatter_chart_fig
-    html_content0 +=  donut_chart_fig
+    html_content +=  table_fig
+    html_content +=  scatter_chart_fig
+    html_content +=  donut_chart_fig
 
-    return html_content0
+    return html_content

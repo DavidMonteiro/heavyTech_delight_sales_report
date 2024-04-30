@@ -210,10 +210,10 @@ def product_information(df):
     # return the plot in html syntax
     return fig.to_html(full_html=True, include_plotlyjs='cdn') 
 
-def product_Analysis(df, html_content0):
+def product_Analysis(df):
     """Master function to generate call functions above, stored them in a string and return them """
 
-    html_content0 +=  "<h2 id=\"Product Information\">Product Information</h2>"
+    html_content =  "<h2 id=\"Product Information\">Product Information</h2>"
 
     # Generate the histogram chart
     product_treemap_fig = product_treemap(df)
@@ -223,10 +223,10 @@ def product_Analysis(df, html_content0):
     product_info_fig = product_information(df)
 
     #Push chart into the html string
-    html_content0 +=  product_treemap_fig
-    html_content0 += top_pieChart_fig
-    html_content0 += bar_chart
-    html_content0 += scatter_fig
-    html_content0 += product_info_fig
+    html_content +=  product_treemap_fig
+    html_content += top_pieChart_fig
+    html_content += bar_chart
+    html_content += scatter_fig
+    html_content += product_info_fig
 
-    return html_content0
+    return html_content

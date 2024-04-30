@@ -134,10 +134,10 @@ def order_sector_diagram(df):
 
     return fig.to_html(full_html=True, include_plotlyjs='cdn')     
 
-def order_Analysis(df, html_content0):
+def order_Analysis(df):
     """Master function to generate call functions above, stored them in a string and return them """
 
-    html_content0 +=  "<h2 id=\"Order Information\">Order Information</h2>"
+    html_content =  "<h2 id=\"Order Information\">Order Information</h2>"
 
     # Generate the histogram chart
     histogram_fig = order_histogram(df)
@@ -146,10 +146,10 @@ def order_Analysis(df, html_content0):
     sector_fig = order_sector_diagram(df)
 
     #Push chart into the html string
-    html_content0 +=  histogram_fig
-    html_content0 += scatter_fig
-    html_content0 += counties_fig
-    html_content0 += sector_fig
+    html_content +=  histogram_fig
+    html_content += scatter_fig
+    html_content += counties_fig
+    html_content += sector_fig
 
-    return html_content0
+    return html_content
 
