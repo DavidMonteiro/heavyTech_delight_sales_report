@@ -50,6 +50,36 @@ def sale_Analysis(df):
     
 
     html_content +=  "<h3 id=\"Sales Product Information\">Sales Product Information</h3>"
-    html_content += prd_report.product_Analysigit s(sale_df)
+    html_content += prd_report.product_Analysis(sale_df)
 
     return html_content
+
+
+def completeAnalysis(df):
+
+    general_index = """<h1>Complete Analysis</h1>
+        <h2>Index</h2>
+            <div>
+                <ul>
+                    <li><span><a href="#General-Information">General Analysis</a></span></li>
+                    <li><span><a href="#Capital-Purchase-Analysis">Capital Purchase Analysis</a></span></li>
+                        <ul>
+                            <li><span><a href="#Capital-Purchase-Order-Information">Orders Information</a></span></li>
+                            <li><span><a href="#Capital-Purchase-Product-Information">Product Information</a></span></li>
+                        </ul> 
+                    <li><span><a href="#Hire-Analysis">Hire Analysis</a></span></li>
+                        <ul>
+                            <li><span><a href="#Hire-Order-Information">Orders Information</a></span></li>
+                            <li><span><a href="#Hire-Product-Information">Product Information</a></span></li>
+                        </ul> 
+                </ul>
+            </div>"""
+
+    html_content = general_index
+    
+    html_content += gen_report.general_Analysis(df)
+    html_content += sale_Analysis(df)
+    html_content += rental_Analysis(df)
+
+    return html_content
+    
