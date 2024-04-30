@@ -37,6 +37,20 @@ Upon opening the website, you'll find a simple user interface offering two optio
 2. **Upload Your Own CSV File** This option is a work in progress and currently unavailable. However, it will be ready soon. 
 
 
+## Testing
+
+### Functionality Test
+The application has been thoroughly tested to ensure smooth operation. The following tests have been performed:
+
+*To Import a CSV file and Generate an HTML report*
+- Selected option 1 and noted that a mock CSV file was successfully generated.
+- Verified that the generated CSV file contains the expected data.
+- Confirmed that the generate_report() method was called and generated the HTML report without errors.
+
+
+### Code Quality Test
+The code has been tested with PEP8 standards using a PEP8 validator. The code passed all tests without any errors.
+
 
 ## Future Enhancements
 
